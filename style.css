@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,19 +7,21 @@
 body {
     background-image: url('./white_bg.jpg');
     background-size: cover;
-    background-position:center center;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     font-family: 'Potta One', cursive;
     margin: 0;
+    color: pink; /* Added to change the default text color to pink */
 }
 
 h1 {
     font-weight: normal;
     font-size: 4rem;
     margin-top: 5rem;
+    color: pink; /* Added to change the h1 text color to pink */
 }
 
 .countdown-container {
@@ -34,12 +36,15 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
+    color: pink; /* Added to change the big-text color to pink */
 }
 
 .countdown-el {
     text-align: center;
+    color: pink; /* Added to change the countdown-el text color to pink */
 }
 
 .countdown-el span {
     font-size: 1.3rem;
+    color: pink; /* Added to change the span text color to pink */
 }
